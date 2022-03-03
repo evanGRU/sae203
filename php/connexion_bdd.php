@@ -1,9 +1,9 @@
 <?php 
-    $UTIL='root'; $PASS='root';
+    $UTIL='sae203'; $PASS='devWeb10';
 
 
     try {
-        $mabd = new PDO('mysql:host=localhost;port=8888;dbname=mmi21d10;charset=UTF8;', $UTIL, $PASS);
+        $mabd = new PDO('mysql:host=localhost;dbname=sae203;charset=UTF8;', $UTIL, $PASS);
         $mabd->query('SET NAMES utf8;');
     } catch (PDOException $e) {
         print "Erreur : ".$e->getMessage().'<br />'; die();
