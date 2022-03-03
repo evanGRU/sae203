@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'camptonSeBo';
+    src: url(../fonts/CamptonSemiBold.otf);
+}
+
+@font-face {
+    font-family: 'camptonSeBoIt';
+    src: url(../fonts/CamptonSemiBoldItalic.otf);
+}
+
+@font-face {
+    font-family: 'camptonBl';
+    src: url(../fonts/CamptonBlack.otf);
+}
+
+@font-face {
+    font-family: 'camptonBlIt';
+    src: url(../fonts/CamptonBlackItalic.otf);
+}
+
+@font-face {
+    font-family: 'camptonMe';
+    src: url(../fonts/CamptonMedium.otf);
+}
+
+@font-face {
+    font-family: 'camptonBo';
+    src: url(../fonts/CamptonBook.otf);
+}
+
+@font-face {
+    font-family: 'camptonBoIt';
+    src: url(../fonts/CamptonBookItalic.otf);
+}
+
+@font-face {
+    font-family: 'camptonLi';
+    src: url(../fonts/CamptonLight.otf);
+}
+
+@font-face {
+    font-family: 'camptonLiIt';
+    src: url(../fonts/CamptonLightItalic.otf);
+}
+
+::selection {
+    background-color: #D9C78D;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #14213d;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'camptonMe';
+}
+
+header nav {
+    height: 9vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-right: 5vw;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+main {
+    font-family: 'camptonSeBo';
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
