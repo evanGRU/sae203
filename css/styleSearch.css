@@ -117,7 +117,6 @@ main {
     align-items: flex-start;
     justify-content: center;
     z-index: -2;
-    background-color: #000;
 }
 
 #search-box-bg {
@@ -126,7 +125,6 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 2vh;
-    background-color: cadetblue;
 }
 
 #form {
@@ -137,7 +135,6 @@ main {
     flex-direction: column;
     width: 60vw;
     height: auto;
-    background-color: crimson;
 }
 
 #form input {
