@@ -18,7 +18,7 @@ require('../php/connexion_bdd.php')
     <section id="hero">
         <div id="bg-hero">
             <span></span>
-            <h2>RECHERCHER</h1>
+            <h2>RECHERCHEZ</h1>
             <h1>UN SKIN</h1>
             
             <div id="search-box">
