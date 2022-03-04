@@ -1,18 +1,9 @@
 <?php 
 
-    try {
-        $mabd = new PDO('mysql:host=localhost;dbname=sae203;charset=UTF8;', 'sae203', 'devWeb10');
-        $mabd->query('SET NAMES utf8;');
-    } catch (PDOException $e) {
-        print "Erreur : ".$e->getMessage().'<br />'; die();
-    }
-
-                
+    $mabd = new PDO('mysql:host=localhost;port=8888;dbname=mmi21d10;charset=UTF8;', 'root', 'root');
+    $mabd->query('SET NAMES utf8;');
+         
     $req ="SELECT * FROM skins INNER JOIN personnages ON skins._personnage_id=personnages.personnage_id"; 
-    try {
-        $resultat = $mabd->query($req); 
-    } catch (PDOException $e) {
-        print "Erreur dans la base de données des personnages : ".$e->getMessage().'<br />';
-        die();
-    }
+    $resultat = $mabd->query($req); 
+
 ?>

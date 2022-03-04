@@ -53,7 +53,7 @@ body {
 }
 
 header {
-    background-color: #14213d;
+    background-color: #e5e5e5;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: #fff;
+    color: #14213d;
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;

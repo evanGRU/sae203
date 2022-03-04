@@ -12,7 +12,6 @@
 
 
 
-
 <article>
                 <img src="../images/champion1.jpeg" alt="">
                 <div class="text-card-bottom">

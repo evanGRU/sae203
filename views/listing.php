@@ -10,7 +10,6 @@ $admin = "admin.php";
 $search = "form_recherche.php";
 require('../php/nav.php'); 
 require('../php/connexion_bdd.php')
-
 ?>
 
     <main>
