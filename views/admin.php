@@ -1,6 +1,8 @@
 <?php 
 $titre = "Catalogue";
 $styleMain = "../css/styleMain.css";
+$style = "../css/styleAdmin.css";
+$menuNav = "../images/deco/menu.png";
 require('../php/head.php'); 
 
 $index = "../index.php";
@@ -11,7 +13,13 @@ require('../php/nav.php');
 ?>
 
 <main>
-    <h1>Page admin</h1>
+     <section id="hero">
+         <div id="bg-hero">
+             <span></span>
+             <h2>CONNECTEZ - VOUS</h1>
+             <img src="../images/deco/bg_deco.png" alt="">
+         </div>
+     </section>
 </main>
     
 <?php require('../php/footer.php'); ?>

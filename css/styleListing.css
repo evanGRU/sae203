@@ -1,52 +1,3 @@
-@font-face {
-    font-family: 'camptonSeBo';
-    src: url(../fonts/CamptonSemiBold.otf);
-}
-
-@font-face {
-    font-family: 'camptonSeBoIt';
-    src: url(../fonts/CamptonSemiBoldItalic.otf);
-}
-
-@font-face {
-    font-family: 'camptonBl';
-    src: url(../fonts/CamptonBlack.otf);
-}
-
-@font-face {
-    font-family: 'camptonBlIt';
-    src: url(../fonts/CamptonBlackItalic.otf);
-}
-
-@font-face {
-    font-family: 'camptonMe';
-    src: url(../fonts/CamptonMedium.otf);
-}
-
-@font-face {
-    font-family: 'camptonBo';
-    src: url(../fonts/CamptonBook.otf);
-}
-
-@font-face {
-    font-family: 'camptonBoIt';
-    src: url(../fonts/CamptonBookItalic.otf);
-}
-
-@font-face {
-    font-family: 'camptonLi';
-    src: url(../fonts/CamptonLight.otf);
-}
-
-@font-face {
-    font-family: 'camptonLiIt';
-    src: url(../fonts/CamptonLightItalic.otf);
-}
-
-::selection {
-    background-color: #D9C78D;
-}
-
 main {
     background-color: #f9f9f9;
     font-size: 50px;
@@ -57,11 +8,11 @@ main {
 
 #hero {
     height: auto;
-    min-height: 80vh;
+    min-height: 40vw;
 }
 
 #bg-hero {
-    min-height: 80vh;
+    min-height: 40vw;
     height: auto;
     width: 100%;
     display: flex;
@@ -74,7 +25,7 @@ main {
 }
 
 #bg-hero span {
-    height: 40vh;
+    height: 20vw;
     width: 100%;
     background-color: #e5e5e5;
     z-index: -1;
@@ -86,7 +37,7 @@ main {
     margin: 0;
     letter-spacing: 5px;
     position: absolute;
-    top: 25vh;
+    top: 12vw;
 }
 
 #bg-hero h1 {
@@ -95,7 +46,7 @@ main {
     margin: 0;
     letter-spacing: 5px;
     position: absolute;
-    top: 35vh;
+    top: 18vw;
 }
 
 #bg-hero img {
@@ -163,7 +114,7 @@ main {
 }
 
 .text-card {
-    height: 20vh;
+    height: auto;
     width: 100%;
     display: flex;
 }
@@ -204,7 +155,7 @@ main {
     padding: 0;
     margin: 0;
     list-style: none;
-    font-size: 1.5vh;
+    font-size: 1.2rem;
     width: 100%;
     height: 100%;
     display: flex;
@@ -225,9 +176,12 @@ main {
 }
 
 .text-card-cara div {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     font-size: 20px;
-    height: 10vh;
+    height: auto;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -241,7 +195,6 @@ main {
     padding-bottom: 5px;
     border-radius: 30px 0 30px 0/10px 0 10px 0;
     border: #D9C78D 2px solid;
-    margin-bottom: 5vh;
 }
 
 

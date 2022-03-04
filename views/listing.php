@@ -2,6 +2,7 @@
 $titre = "Skins";
 $styleMain = "../css/styleMain.css";
 $style = "../css/styleListing.css";
+$menuNav = "../images/deco/menu.png";
 require('../php/head.php'); 
 
 $index = "../index.php";

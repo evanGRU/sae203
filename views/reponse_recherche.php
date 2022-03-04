@@ -2,6 +2,7 @@
 $titre = "Catalogue";
 $styleMain = "../css/styleMain.css";
 $style = "../css/styleSearch.css";
+$menuNav = "../images/deco/menu.png";
 require('../php/head.php'); 
 
 $index = "../index.php";

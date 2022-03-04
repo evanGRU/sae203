@@ -13,6 +13,13 @@
 
     <script>
         $(document).ready(function() {
+            $('#navbar').hide();
+            $('#menuImg').click(function() {
+                $('#navbar').toggle('slide');
+            });
+
+
+
             $('#filter').hide();
             $('#filter-btn2').hide();
             $('#filter-btn1').click(function() {

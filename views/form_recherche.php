@@ -2,6 +2,7 @@
 $titre = "Catalogue";
 $styleMain = "../css/styleMain.css";
 $style = "../css/styleSearch.css";
+$menuNav = "../images/deco/menu.png";
 require('../php/head.php'); 
 
 $index = "../index.php";
@@ -64,7 +65,7 @@ require('../php/connexion_bdd.php')
                     </form>
 
                     
-                    <p id="filter-btn1" > -- dérouler les filtres --</p>
+                    <p id="filter-btn1" > -- ajouter des filtres --</p>
                     <p id="filter-btn2" > -- réduire les filtres --</p>
                 </div>
                 <img src="../images/deco/bg_deco.png" alt="">
@@ -74,6 +75,10 @@ require('../php/connexion_bdd.php')
         </div>
     </section>
 
+    <section id="content">
+
+    </section>
+
     <section id="footer">
             <img src="../images/deco/bg_deco.png" alt="">
     </section>
@@ -81,3 +86,4 @@ require('../php/connexion_bdd.php')
 </main>
     
 <?php require('../php/footer.php'); ?>
+
