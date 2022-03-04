@@ -14,6 +14,7 @@ require('../php/connexion_bdd.php')
 
 <main>
   
+
     <section id="hero">
         <div id="bg-hero">
             <span></span>
