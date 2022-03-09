@@ -160,6 +160,19 @@ main {
     letter-spacing: 5px;
 }
 
+#search-button2:hover {
+    color: #D9C78D;
+    cursor: pointer;
+}
+
+#filter-btn1:hover {
+    color: #D9C78D;
+}
+
+#filter-btn2:hover {
+    color: #D9C78D;
+}
+
 
 /* content */
 
