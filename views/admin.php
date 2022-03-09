@@ -18,7 +18,6 @@ require('../php/nav.php');
              <span></span>
              <h2>A VENIR</h2>
              <h1>BIENTÔT</h1>
-             <img src="../images/deco/bg_deco.png" alt="">
          </div>
      </section>
 </main>

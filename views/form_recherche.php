@@ -27,12 +27,12 @@ require('../php/connexion_bdd.php')
 
                     <form id="form" method="post" action="reponse_recherche.php">
                         <div id="form-search">
-                            <input type="text" name="search" id="searchTerm" placeholder="Qui cherchez-vous ?">
+                            <input type="text" name="search" id="searchTerm" autocomplete="off" placeholder="Qui cherchez-vous ?">
                             <button type="submit" name="send" value="OK" class="search-button"></button>
                         </div>
                         <div id="filter">
                             <div id="form-filter">
-                                <input type="search" list="poste" class="search-elm" name="searchPoste" placeholder="--poste"/>
+                                <input type="search" list="poste" autocomplete="off" class="search-elm" name="searchPoste" placeholder="--poste"/>
                                 <datalist id="poste">
                                     <option value="top">
                                     <option value="jungle">
@@ -40,7 +40,7 @@ require('../php/connexion_bdd.php')
                                     <option value="adc">
                                     <option value="support">
                                 </datalist>
-                                <input type="search" list="prix" class="search-elm" name="searchPrix" placeholder="--prix"/>
+                                <input type="search" list="prix" autocomplete="off" class="search-elm" name="searchPrix" placeholder="--prix"/>
                                 <datalist id="prix">
                                     <option value="390 RP">
                                     <option value="520 RP">
@@ -50,7 +50,7 @@ require('../php/connexion_bdd.php')
                                     <option value="1820 RP">
                                     <option value="3250 RP">
                                 </datalist>
-                                <input type="search" list="rarete" class="search-elm" name="searchRarete" placeholder="--rarete"/>
+                                <input type="search" list="rarete" autocomplete="off" class="search-elm" name="searchRarete" placeholder="--rarete"/>
                                 <datalist id="rarete">
                                     <option value="peu commun">
                                     <option value="commun">
