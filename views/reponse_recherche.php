@@ -1,5 +1,5 @@
 <?php 
-$titre = "Catalogue";
+$titre = "Recherche : ".$_POST['search'];
 $styleMain = "../css/styleMain.css";
 $style = "../css/styleSearch.css";
 $menuNav = "../images/deco/menu.png";

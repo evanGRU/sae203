@@ -1,5 +1,5 @@
 <?php 
-$titre = "Catalogue";
+$titre = "Admin";
 $styleMain = "../css/styleMain.css";
 $style = "../css/styleAdmin.css";
 $menuNav = "../images/deco/menu.png";
@@ -16,7 +16,8 @@ require('../php/nav.php');
      <section id="hero">
          <div id="bg-hero">
              <span></span>
-             <h2>CONNECTEZ - VOUS</h1>
+             <h2>A VENIR</h2>
+             <h1>BIENTÔT</h1>
              <img src="../images/deco/bg_deco.png" alt="">
          </div>
      </section>

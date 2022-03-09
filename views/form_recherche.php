@@ -1,5 +1,5 @@
 <?php 
-$titre = "Catalogue";
+$titre = "Recherche";
 $styleMain = "../css/styleMain.css";
 $style = "../css/styleSearch.css";
 $menuNav = "../images/deco/menu.png";
@@ -68,19 +68,9 @@ require('../php/connexion_bdd.php')
                     <p id="filter-btn1" > -- ajouter des filtres --</p>
                     <p id="filter-btn2" > -- réduire les filtres --</p>
                 </div>
-                <img src="../images/deco/bg_deco.png" alt="">
-
             </div>
 
         </div>
-    </section>
-
-    <section id="content">
-
-    </section>
-
-    <section id="footer">
-            <img src="../images/deco/bg_deco.png" alt="">
     </section>
 
 </main>
