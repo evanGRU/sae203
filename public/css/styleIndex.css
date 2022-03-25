@@ -1,0 +1,120 @@
+/* hero */
+
+body {
+    background: url("../images/deco/bg_motif.png") contain;
+}
+
+#hero {
+    height: 85vh;
+    position: relative;
+    border-bottom: #444446 solid 2px;
+}
+
+#hero span {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    background-color: #e5e5e5;
+}
+
+#hero span div {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://cdn.wallpapersafari.com/84/96/8aoVnb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    filter: blur(0.3em);
+    transform: scale(1.1);
+}
+
+#bg-hero {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#bg-hero div {
+    height: 90%;
+    width: 90%;
+    background-image: url("https://cdn.wallpapersafari.com/84/96/8aoVnb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 900;
+    transform: translateY(20px);
+}
+
+#bg-hero div h1 {
+    height: 95%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #AE7F3D solid 1px;
+}
+
+#bg-hero div h1 img {
+    width: 650px;
+    z-index: 999;
+}
+
+#card-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+    height: auto;
+    padding-bottom: 20vh;
+    padding-top: 10vh;
+    position: relative;
+    background-color: #F7F7F7;
+}
+
+#card-box div {
+    position: absolute;
+    top: 0;
+    background-image: url("../images/deco/bg_motif.png");
+    height: 50vh;
+    width: 100%;
+}
+
+#card-box a {
+    height: 18em;
+    width: 18em;
+    z-index: 999;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #AE7F3D solid 1px;
+    border-radius: 100%;
+}
+
+#card-box a:hover img {
+    transform: scale(1.02);
+}
+
+#card-box a img {
+    width: 15em;
+    transition: 250ms;
+}
+
+#card-box a h1 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: -70px;
+    font-family: 'camptonBlIt';
+    font-size: 40px;
+    color: #AE7F3D;
+}

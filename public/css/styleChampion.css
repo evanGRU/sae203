@@ -1,0 +1,239 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 14px;
+}
+
+main {
+    background-color: #f9f9f9;
+    height: auto;
+}
+
+
+/* hero */
+
+#hero {
+    height: 70vh;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+#hero span {
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    background-color: #e5e5e5;
+}
+
+#hero div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#hero div h1,
+h2 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    z-index: 100;
+}
+
+#hero div h2 {
+    font-family: 'camptonBoIt';
+}
+
+#hero div h1 {
+    font-family: 'camptonBlIt';
+}
+
+
+/* content */
+
+#contentChamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    position: relative;
+}
+
+#containerChamp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    width: 100%;
+    height: auto;
+    margin: 10vh 5vh 10vh 5vh;
+}
+
+#contentChamp article::after {
+    content: '';
+    position: absolute;
+    right: -50px;
+    border: 40px solid transparent;
+    border-top-color: #f9f9f9;
+}
+
+#contentChamp article {
+    max-width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #15203D;
+    position: relative;
+    z-index: 100;
+}
+
+.champImg {
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.champImg img {
+    height: 100%;
+    transition: 250ms;
+}
+
+article:hover .champImg img {
+    transform: scale(1.03);
+}
+
+.champName {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.champName h1 {
+    font-family: 'camptonBlIt';
+    color: #fff;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    transition: 250ms;
+    font-size: 25px;
+}
+
+article:hover .champName h1 {
+    transform: translate(10px, 0);
+}
+
+#scrollTop {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: transparent;
+}
+
+#scroller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AE7F3D;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #f9f9f9;
+    border: solid 3px #AE7F3D;
+    width: 2em;
+    height: 2em;
+    position: sticky;
+    right: 20px;
+    bottom: 20px;
+    margin-top: 25vh;
+    margin-bottom: -17.3em;
+    z-index: 999;
+}
+
+
+/* suggestion */
+
+#suggestion {
+    min-height: 40vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    gap: 2vw;
+}
+
+#suggestion a {
+    margin-bottom: 6vw;
+    width: 20em;
+    height: 25vh;
+    background-color: #15203D;
+    border: solid 3px #AE7F3D;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+}
+
+#suggestion a:hover img {
+    transform: scale(1.02);
+}
+
+#suggestion a:hover h1 {
+    background-color: #182547;
+}
+
+#suggestion a img {
+    height: 250px;
+    transition: 250ms;
+}
+
+#suggestion a h1 {
+    font-family: "camptonBlIt";
+    font-size: 1em;
+    margin: 0;
+    background-color: #15203D;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#suggTitle {
+    margin: 2vw 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 0 5vw;
+}
+
+#suggTitle span {
+    text-align: center;
+    font-size: 1em;
+    font-family: "camptonMe";
+}
+
+#suggTitle div {
+    width: 40%;
+    height: 3px;
+    background-color: #000;
+}

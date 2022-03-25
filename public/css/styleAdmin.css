@@ -1,0 +1,322 @@
+body {
+    background-color: #f9f9f9;
+    height: auto;
+}
+
+
+/* hero */
+
+#hero {
+    height: 70vh;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+#hero-admin {
+    min-height: 90vh;
+    background-color: #f9f9f9;
+    position: relative;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#hero span,
+#hero-admin span {
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    background-color: #e5e5e5;
+}
+
+#hero-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    height: 100%;
+    padding-top: 8vh;
+}
+
+#hero-title h1,
+h2 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    z-index: 100;
+}
+
+#hero-title h2 {
+    font-family: 'camptonBoIt';
+}
+
+#hero-title h1 {
+    font-family: 'camptonBlIt';
+}
+
+#hero-buttons {
+    margin-top: 1em;
+    display: flex;
+    gap: 10vw;
+}
+
+#hero-buttons a {
+    height: 10vh;
+    width: 20vw;
+    background-color: #15203D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 4px #15203D;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: 'camptonSeBo';
+    letter-spacing: 2px;
+    transition: 250ms;
+    text-decoration: none;
+    text-align: center;
+}
+
+#hero-buttons a:hover {
+    background-color: #fff;
+    color: #15203D;
+    border: solid 4px #15203D;
+    cursor: pointer;
+}
+
+
+/* contenu gestion bdd */
+
+#hero-gestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    height: 100%;
+}
+
+#hero-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    height: 100%;
+}
+
+#hero-gestion h1 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    z-index: 100;
+    font-family: 'camptonBlIt';
+    margin-top: 10vh;
+}
+
+#hero-form h1 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    z-index: 100;
+    font-family: 'camptonBlIt';
+    margin-top: 10vh;
+}
+
+#hero-gestion div {
+    z-index: 9999;
+    display: flex;
+    gap: 2vw;
+}
+
+#form-title {
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#form-title a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'camptonBoIt';
+    font-size: 0.6em;
+    z-index: 999;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+    transform: translateY(-1vh);
+    transition: 250ms;
+}
+
+#form-title a:hover {
+    transform: translate(3px, -1vh);
+}
+
+#hero-gestion a,
+div a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'camptonBoIt';
+    font-size: 15px;
+    z-index: 999;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+    transform: translateY(-1vh);
+    transition: 250ms;
+}
+
+#hero-gestion div a:hover {
+    transform: translate(3px, -1vh);
+}
+
+#hero-gestion table {
+    padding: 30px;
+    z-index: 999;
+    background-color: #313132;
+    color: #fff;
+    margin-bottom: 10vh;
+    font-family: 'camptonBo';
+    font-size: 20px;
+}
+
+#hero-gestion table thead tr th {
+    font-size: 30px;
+    border-bottom: solid 2px #fff;
+}
+
+#hero-gestion table img {
+    width: 80px;
+}
+
+#hero-gestion table a {
+    color: #fff;
+    font-family: 'camptonBo';
+    font-size: 20px;
+}
+
+#form-gestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+#inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    z-index: 1000;
+}
+
+#inputs div {
+    width: 7em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#inputs div p {
+    font-family: 'camptonBo';
+    font-size: 25px;
+    margin: 0;
+}
+
+#inputs div input {
+    font-family: 'camptonLi';
+    min-height: 2rem;
+    min-width: 8rem;
+    padding: 1rem;
+    font-size: 0.5em;
+    border: #14213d 2px solid;
+}
+
+#inputs div select {
+    font-family: 'camptonLi';
+    min-height: 4.1rem;
+    min-width: 12.5rem;
+    padding: 1rem;
+    font-size: 0.5em;
+    border: #14213d 2px solid;
+}
+
+#gestion-btn {
+    padding: 1em 3em;
+    border: solid 2px #15203D;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: #15203D;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'camptonSeBo';
+    letter-spacing: 5px;
+    transition: 250ms;
+    text-decoration: none;
+}
+
+#gestion-btn:hover {
+    background-color: #fff;
+    color: #15203D;
+    border: solid 2px #15203D;
+    cursor: pointer;
+}
+
+
+/* upload */
+
+#invisible {
+    width: 0;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.custom {
+    font-family: 'camptonLiIt';
+    min-height: 1.9rem;
+    min-width: 80%;
+    padding: 1rem;
+    font-size: 0.4em;
+    border: #14213d 2px solid;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+#preview {
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    width: 5.5em;
+    border: #14213d 2px solid;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+    transform: translatey(5em);
+    display: flex;
+}
+
+#preview img {
+    height: 3em;
+}
+
+.custom:hover {
+    background-color: #dddddd;
+}

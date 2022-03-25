@@ -1,0 +1,372 @@
+main {
+    background-color: #f9f9f9;
+    min-height: 85vh;
+    height: auto;
+}
+
+
+/* hero */
+
+#hero {
+    min-height: 70vh;
+    height: auto;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+#hero span {
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    background-color: #e5e5e5;
+}
+
+#bg-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 23vh;
+}
+
+#hero div h1,
+h2 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    z-index: 100;
+}
+
+#hero div h2 {
+    font-family: 'camptonBoIt';
+    text-align: center;
+}
+
+#hero div h1 {
+    font-family: 'camptonBlIt';
+    text-align: center;
+}
+
+
+/* form */
+
+#search-box {
+    width: 100%;
+    min-height: 40vh;
+    height: auto;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 99;
+}
+
+#search-box-bg {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#form,
+#filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+}
+
+#form-search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    flex-direction: column;
+    width: 60vw;
+    height: auto;
+}
+
+#form-search input {
+    font-family: 'camptonLi';
+    width: 100%;
+    height: 8vh;
+    border: #14213d 2px solid;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 20px;
+    position: relative;
+}
+
+.search-button {
+    margin-top: 1vh;
+    height: 40px;
+    width: 40px;
+    background-image: url('../images/deco/search.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+
+#search-box p {
+    padding: 0;
+    margin: 0;
+    font-family: 'camptonBoIt';
+    font-size: 15px;
+    color: #14213d;
+    cursor: pointer;
+    margin-bottom: 10vh;
+}
+
+.search-elm {
+    padding: 0;
+    margin: 0;
+    font-family: 'camptonLi';
+    width: 20vw;
+    height: 8vh;
+    padding-left: 20px;
+    border: #14213d 2px solid;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+#search-button2 {
+    width: 20vw;
+    height: 6vh;
+    border: solid 2px #15203D;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    background-color: #15203D;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'camptonSeBo';
+    letter-spacing: 5px;
+    transition: 250ms;
+}
+
+#search-button2:hover {
+    background-color: #fff;
+    color: #15203D;
+    border: solid 2px #15203D;
+    cursor: pointer;
+}
+
+#filter-btn1:hover {
+    color: #D9C78D;
+}
+
+#filter-btn2:hover {
+    color: #D9C78D;
+}
+
+
+/* content */
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+    width: 100vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+#content article {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #15203D;
+}
+
+#content article::before {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+    border: 40px solid transparent;
+    border-top-color: #f9f9f9;
+    transform: rotate(90deg);
+}
+
+#content article {
+    position: relative;
+}
+
+#content article::after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    border: 40px solid transparent;
+    border-top-color: #f9f9f9;
+}
+
+.card-image {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    transition: 250ms;
+}
+
+.card-image img {
+    width: 100%;
+    transition: 250ms;
+}
+
+article:hover .card-image img {
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+.text-card-bottom {
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    color: #fff;
+}
+
+.text-card-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    max-height: 8vh;
+    transition: 250ms;
+}
+
+.text-card-title h3 {
+    font-size: 40px;
+    font-family: 'camptonBlIt';
+    padding: 0;
+    margin: 0;
+    transform: translate(0, -20px);
+}
+
+.text-card {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.text-card-lane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+    height: 100%;
+    width: 15%;
+}
+
+.ligne {
+    background-color: #fff;
+    height: 35%;
+    width: 1px;
+}
+
+.text-card-lane p {
+    font-family: 'camptonLi';
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}
+
+.text-card-cara {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.text-card-cara ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+    margin-top: 10px;
+}
+
+.text-card-cara ul li {
+    margin-left: 30px;
+    font-family: 'camptonSeBoIt';
+}
+
+.text-card-cara ul li span {
+    font-family: 'camptonBo';
+}
+
+.text-card-cara ul li img {
+    width: 15px;
+}
+
+.card-lien {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1vw;
+    padding-left: 30px;
+    margin-bottom: 3vh;
+}
+
+.txt-achat {
+    position: relative;
+    font-family: 'camptonMe';
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+    border: solid 1px#fff;
+    padding: 10px;
+    transition: 250ms;
+}
+
+.txt-achat:hover {
+    background-color: #fff;
+    color: #15203D;
+}
+
+.fav {
+    color: #fff;
+    font-size: 30px;
+}
+
+.fav:hover {
+    cursor: pointer;
+}
+
+
+/* footer */
+
+#footer {
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#footer img {
+    position: absolute;
+    top: -50px;
+}

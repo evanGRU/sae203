@@ -1,31 +1,33 @@
 <?php 
-$titre = "Accueil";
-$styleMain = "css/styleMain.css";
-$style = "css/styleIndex.css";
-$menuNav = "images/deco/menu.png";
-require('php/head.php');
-
-$index = "index.php";
-$listing = "views/listing.php";
-$admin = "views/admin.php";
-$search = "views/form_recherche.php";
-
-
+    require 'public/php/fonctions.lib.php';
+    headVariable("Accueil", "public/css/styleMain.css", "public/css/styleIndex.css", "public/images/deco/logo_min.png", 'public/php/head.php', "index.php", "listing.php","views/champions.php", "views/fav.php", "views/panier.php", "views/login.php", "admin/admin.php", "form_recherche.php", "public/php/nav.php");
 ?>
-<script>
-    $(document).ready(function() {
-        $('#navbar').show();
-        });
-</script>
+
 
 <main>
-    <?php require('php/nav.php'); ?>
-    <div>
-        <img id="bgImage" src="images/deco/bg_image.jpeg" alt="bg-image"> 
-        <img id="logo" src="images/deco/logo.png" alt="bg-image">
-    </div>
-</main>
+    <section id="hero">
+        <span><div></div></span> 
+        <div id=bg-hero>
+            <div>
+                <h1><img src="public/images/deco/logo.png" alt=""></h1>
+            </div>
+        </div>
+    </section>
     
-<?php require('php/footer.php'); ?>
+    <section id="card-box">
+        <div></div>
+        <a href="views/champions.php">
+            <img src="https://www.leagueoflegends.com/static/support-d63ae08baf517425864ddc020a5871d5.png" alt="">
+            <h1>CHAMPIONS</h1>
+        </a>
+        <a href="listing.php">
+            <img src="https://www.leagueoflegends.com/static/assassin-two-3a0fb5383eca19a4bc9b3c53310380bf.png" alt="">
+            <h1>SKINS</h1>
+        </a>
+    </section>
+</main>
+
+
+<?php require 'public/php/foot.php'; ?>
 
 

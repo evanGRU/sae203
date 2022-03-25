@@ -1,0 +1,129 @@
+body {
+    background-color: #f9f9f9;
+    height: auto;
+}
+
+
+/* hero */
+
+#hero {
+    padding: 2em 0;
+    height: auto;
+    background-color: #585858;
+    position: relative;
+}
+
+#hero-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    height: 100%;
+}
+
+#hero-title h1,
+h2 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    z-index: 100;
+}
+
+#hero-title h2 {
+    font-family: 'camptonBoIt';
+}
+
+#hero-title h1 {
+    font-family: 'camptonBlIt';
+}
+
+
+/* form */
+
+#hero-title form {
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    height: auto;
+    background-color: #d1d1d1;
+    padding: 1em;
+}
+
+#inputs {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+#inputs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputs div label {
+    font-family: 'camptonBo';
+    font-size: 25px;
+    margin: 0;
+    color: #15203D;
+}
+
+#inputs div input {
+    font-family: 'camptonLi';
+    min-height: 2rem;
+    min-width: 20em;
+    padding: 1rem;
+    font-size: 0.5em;
+    border: #14213d 2px solid;
+}
+
+#gestion-btn {
+    width: 21em;
+    margin-top: 1em;
+    padding: 1em 3em;
+    border: solid 2px #15203D;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: #d1d1d1;
+    color: #15203D;
+    font-size: 1rem;
+    font-family: 'camptonSeBo';
+    letter-spacing: 5px;
+    transition: 250ms;
+    text-decoration: none;
+}
+
+#gestion-btn:hover {
+    background-color: #15203D;
+    color: #d1d1d1;
+    border: solid 2px #d1d1d1;
+    cursor: pointer;
+}
+
+#regLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #15203D;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#regLink p {
+    margin: 0;
+}
+
+#regLink a {
+    margin: 0;
+    color: #AE7F3D;
+}
