@@ -1,6 +1,6 @@
 <?php
 
-  define('LUTILISATEUR', 'sae203');
-  define('LEMOTDEPASSE', 'devWeb10');
+  define('LUTILISATEUR', 'zzz');
+  define('LEMOTDEPASSE', 'zzz');
 
 ?>
